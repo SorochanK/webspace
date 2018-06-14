@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+a {
+
+    text-decoration: none;
+}
+
+/*a:hover, a:focus{
+    color: #7b7b7b;
+    outline: 0;
+}*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#icon-hamburger {
+    color: #fff;
+}
+
+.f {
+    color: #ff214f;
+}
+
+.main-none {
+    display: none;
+}
+
+.main-active {
+    max-width: 100%;
+    background: #0e0e0e;
+    z-index: 9999;
+
+}
+
+.main-active img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-active button {
+    margin: 10px 10px 0 20px;
+}
+
+.main-content-none {
+    display: none;
+}
+
+.main-content-active {
+    display: block;
+}
+
+/* шапка */
+.navbar-hidden {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    z-index: 9;
+    min-height: 80px;
+    padding: 15px 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar-hidden a {
+    color: white;
+}
+
+.navbarLight {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    z-index: 9;
+    min-height: 80px;
+    padding: 15px 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    box-shadow: 0px 7px 9px 0px rgba(50, 50, 50, 0.31);
+}
+
+.navbarLight a {
+    color: black;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.active-link span:last-child {
+    color: #ff214f;
+
+}
+
+.active-link span:first-child {
+    border-bottom: 1px solid #ff214f;;
+    padding-bottom: 3px;
+    color: #ff214f;
+}
+
+.fa-circle-notch {
+
+    color: red;
+}
+
+.arrowUp {
+    color: #7b7b7b;
+    font-size: 35px;
+    position: relative;
+    left: 94%;
+    bottom: 12px;
+}
+
+.arrowDown {
+    color: #ff214f;
+    font-size: 35px;
+}
+
+.arrow {
+    display: none;
+}
+
+.arrow_none_down {
+    display: none;
+}
+
+.active-arrow {
+    display: block;
+}
+
+.arrow_down {
+    position: relative;
+    top: 230px;
+}
+
+@media (max-width: 650px) {
+    .arrowUp {
+
+        left: 90%;
+        bottom: 10px;
+    }
+
+}
+
+.arrowUp:hover {
+    color: #ff214f;
+}
+
+#showcase {
+    position: relative;
+    min-height: 750px;
+    background: url("../images/mountains.jpg");
+}
+
+
+#showcase .container {
+    width: 100%;
+    padding-top: 200px;
+    z-index: 2;
+    color: white;
+}
+
+/*#showcase .container h1{
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    animation-delay: 1s;
+}*/
+
+#showcase .alt-font {
+    font-size: 20px;
+}
+
+#showcase .cd-headline {
+    font-size: 65px;
+}
+
+@media (max-width: 1200px) {
+
+    #showcase .cd-headline {
+        font-size: 55px;
+
+    }
+}
+
+@media (max-width: 995px) {
+    #showcase .alt-font {
+        font-size: 16px;
+    }
+
+    #showcase .kursor_text3 {
+        font-size: 16px;
+    }
+
+    #showcase .cd-headline {
+        font-size: 40px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    #showcase .alt-font {
+        font-size: 15px;
+    }
+
+    #showcase .kursor_text3 {
+        font-size: 15px;
+    }
+
+    #showcase .cd-headline {
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width: 512px) {
+
+    #showcase .cd-headline {
+        font-size: 25px;
+        font-weight: 500;
+
+    }
+}
+
+@media (max-width: 430px) {
+
+    #showcase {
+        min-height: 650px;
+    }
+
+    #showcase .alt-font {
+        font-size: 14px;
+    }
+
+    #showcase .cd-headline {
+        font-size: 19px;
+
+    }
+}
+
+#showcase b {
+    color: #ff214f;
+}
+
+/* о нас */
+#services .container .row .about p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+#services .card i {
+    font-size: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7b7b7b;
+}
+
+#services .card:hover i:not(:hover) {
+    color: #ff214f;
+
+}
+
+#services .card i:hover {
+    color: #ff214f;
+}
+
+/*#services .container .row .about div i:hover{
+    color: #ff214f;
+}*/
+
+#services .about .card {
+    transition-duration: 0.3s;
+    border: 2px solid #ededed;
+    border-radius: 0px;
+}
+
+#services .about .card:hover {
+    box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.15);
+    border: 2px solid transparent !important;
+}
+
+.card:hover #services .container .row i {
+    color: #ff214f;
+}
+
+.margin-15px-top {
+    margin-top: 15px;
+}
+
+.separator-line-horrizontal-medium-light3 {
+    width: 18%;
+    height: 1px;
+}
+
+.separator-line-horrizontal-medium-light2 {
+    width: 3%;
+    margin: 3px 0;
+    height: 1px;
+}
+
+.center-col {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-pink {
+    background-color: #ff214f;
+}
+
+/* о нас в числах */
+.numbers {
+    font-family: Arial;
+
+}
+
+.padding-60px-tb {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.numbers i {
+    font-size: 32px;
+    color: #ff214f;
+    padding: 20px 0;
+}
+
+.numbers p {
+    font-size: 16px;
+}
+
+.numbers h6 {
+    font-size: 20px;
+    color: black;
+}
+
+/* портфолио*/
+.portfoli-row {
+    margin: 10px;
+}
+
+.portfoli-row span:hover {
+
+    opacity: 0.4;
+    transition: 0.2s linear;
+
+}
+
+.lightbox {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+/* Комментарий */
+
+/*-----------------вторая часть ----------------------*/
+
+/*-----расчитать стоимость-----*/
+#clock span:after {
+    content: " :";
+
+}
+
+#clock span:last-child:after {
+    content: '';
+}
+
+#units {
+    margin-left: 35px;
+}
+
+#units span {
+
+    margin-right: 45px;
+}
+
+@media (max-width: 992px) {
+
+    #units {
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    #units span {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 433px) {
+
+    #units {
+        margin-left: 0px;
+    }
+
+    #units span {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 380px ) and (max-width: 433px) {
+    #clock span {
+        font-size: 3.1rem !important;
+    }
+
+    #units span {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+    #clock span {
+        font-size: 2.6rem !important;
+    }
+
+    #units {
+        margin-left: -20px;
+    }
+
+    #units span {
+        margin-right: 10px;
+    }
+}
+
+/*-----расчитать стоимость-----*/
+
+/*------ этапы --------*/
+#order-and-sale {
+    background-color: #f7f7f7;
+    color: #232323;
+}
+
+#slider3 {
+    margin-bottom: 0px !important;
+}
+
+/*------ этапы --------*/
+
+/*------цены------*/
+@media (max-width: 767px) {
+    .btn {
+        padding: 12px 20px;
+    }
+}
+
+#price-section {
+    background-color: #f7f7f7;
+    color: #232323;
+}
+
+#price-section .item {
+    border: none;
+}
+
+#price-section .item:hover {
+    box-shadow: 0px 5px 40px 0px rgba(148, 146, 245, 0.2);
+}
+
+.c-header {
+    padding-top: 55px;
+}
+
+.c-header i {
+    color: #d6d5d5;
+    font-size: 45px;
+
+}
+
+.price::before {
+    content: '';
+    background: #eee;
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    left: 15%;
+}
+
+.price::after {
+    content: '';
+    background: #eee;
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    left: 15%;
+}
+
+.from {
+    font-weight: 400;
+}
+
+.active {
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*------цены--------*/
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.loc-info {
+    margin-top: 40%;
+    margin-left: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.loc-info h6 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.loc-info p i {
+    font-size: 1.6em !important;
+}
+
+.loc-info p i:hover{
+    transition: 0.5s;
+    color: #ff214f;
+    cursor: pointer;
+}
+
+.general-info {
+    position: relative;
+    z-index: 2;
+}
+
+textarea {
+    resize: none;
+}
+
+#questions form input, #questions form textarea {
+    margin-left: 6%;
+    max-width: 90%;
+}
+
+#second-form input, #second-form textarea {
+    background-color: #f7f7f7;
+}
+
+footer .icons {
+    color: white;
+    font-size: 1.8em;
+}
+
+.window {
+    display: none;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 35, 35, 0.7);
+
+}
+
+.window .content {
+    margin: 15% auto;
+    width: 80%;
+    /*   background-color: white;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*----- прелоадер--------*/
+#p_prldr {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 3000;
+}
+
+.contpre {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+    top: 48%;
+    /*margin-left: -50px;*/
+    margin-top: -75px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#p_prldr .svg_anm {
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    background: url(../images/pre.gif) center center no-repeat;
+    background-size: 70px;
+    margin: -16px 0 0 -96px;
+}
+
+.text-muted {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
