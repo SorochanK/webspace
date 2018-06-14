@@ -45,7 +45,7 @@ if ($rowsAffected) {
     $site = isset($data['site_type']) ? $data['site_type'] : 'не выбран тип сайта';
     $name = $data['name'];
     $phone = $data['phone'];
-    $is_saleform = $data['form_name'] == 'fast-form' ? ' ДА' : "НЕТ";
+    $is_saleform = $data['form_name'] == 'first-large-form' ? ' ДА' : "НЕТ";
 
     $message = "<p>Новый  пользователь: $name</p>
 <p>Телефон: $phone</p>
