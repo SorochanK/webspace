@@ -103,7 +103,8 @@ function sendAjax(data) {
         data: {'data': data},
         dataType: 'json',
         success: function (msg) {
-            if (msg) $('#thanks-window').fadeIn(350).delay(2000).fadeOut(1500);
+            console.log(msg);
+            if (msg) $('#thanks-window').fadeIn(350).delay(1510).fadeOut(1400);
             else $('#error-window').fadeIn(350).delay(2000).fadeOut(1500);
         },
 
@@ -117,9 +118,10 @@ $('#consultation-form,#fast-form,#first-large-form,' +
     let name = $(this).find('input:eq(0)');
     let phone = $(this).find('input:eq(1)');
     let name_val = name.val(), phone_val = phone.val();
-    let email_val = $(this).find('input:eq(2)').val();
+    let  email_val=undefined;
+    if (form_name !== 'fast-form') email_val = $(this).find('input:eq(2)').val();
 
-    //if (!validate(this, name_val, phone_val)) return;
+    if (!validate(this, name_val, phone_val)) return;
 
 
     let dataArr = {'name': name_val, 'phone': phone_val};

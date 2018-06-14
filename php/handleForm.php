@@ -31,13 +31,13 @@ $statement->execute([
     'site' => $data['site_type'],
     'comment' => $data['comment'],
     'form_name' => $data['form_name'],
-    /*'sale'=>$data['sale']*/
+
 ]);
 $rowsAffected = $statement->rowCount();
 
 echo $statement->rowCount();
 
-/*if ($rowsAffected) {
+if ($rowsAffected) {
     $data = $_POST['data'];
 
     $comment = isset($data['comment']) ? $data['comment'] : 'нет комментария';
@@ -45,32 +45,32 @@ echo $statement->rowCount();
     $site = isset($data['site_type']) ? $data['site_type'] : 'не выбран тип сайта';
     $name = $data['name'];
     $phone = $data['phone'];
+    $is_saleform = $data['form_name'] == 'fast-form' ? ' ДА' : "НЕТ";
 
     $message = "<p>Новый  пользователь: $name</p>
 <p>Телефон: $phone</p>
 <p>Комментарий: $comment</p>
 <p>Email: $email</p>
 <p>Тип сайта: $site</p>
+<p>Есть скидка:$is_saleform</p>
 ";
-    $subject = 'новый пользователь';
 
-
-    $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+    $mail = new PHPMailer();                              // Passing `true` enables exceptions
     try {
         //Server settings
-        $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-        //$mail->isSMTP();                                      // Set mailer to use SMTP
-        $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+        //$mail->SMTPDebug = 2;                                 // Enable verbose debug output
+        $mail->isSMTP();                                      // Set mailer to use SMTP
+        $mail->Host = 'smtp.timeweb.ru';  // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $mail->Username = 'kistik23@example.com';                 // SMTP username
-        $mail->Password = '@k69l71k98n09';                           // SMTP password
+        $mail->Username = 'mail@webspace.net.ua';                 // SMTP username
+        $mail->Password = 'kostyakolya1';                           // SMTP password
         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-        $mail->Port = 587;                                    // TCP port to connect to
+        $mail->Port = 2525;                                    // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('kistik23@gmail.com', 'kostya');
-        $mail->addAddress('sorochank7@gmail.com', 'Joe User');     // Add a recipient
-        $mail->addAddress('sibibert2025@gmail.com');               // Name is optional
+        $mail->setFrom('mail@webspace.net.ua', 'Webspace');
+        $mail->addAddress(FIRST_MAIL);     // Add a recipient
+        $mail->addAddress(SECOND_MAIL);               // Name is optional
         //$mail->addReplyTo('info@example.com', 'Information');
         //$mail->addCC('cc@example.com');
         //$mail->addBCC('bcc@example.com');
@@ -81,18 +81,17 @@ echo $statement->rowCount();
 
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = 'Here is the subject';
-        $mail->Body = 'This is the HTML message body <b>in bold!</b>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        $mail->Subject = 'new user';
+        $mail->Body = $message; //'<b>ВЫ замечены в просмотре childrenPorn</b>';
+        //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
-      //  echo 'Message has been sent';
+        //echo 'Message has been sent';
     } catch (Exception $e) {
-  //      echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+        //echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 
-
-}*/
+}
 
 
 
