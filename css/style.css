@@ -235,6 +235,10 @@ hr {
         font-weight: 500;
 
     }
+    #showcase .kursor_text3{
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 430px) {
@@ -244,12 +248,30 @@ hr {
     }
 
     #showcase .alt-font {
+        font-size: 13px;
+    }
+    #showcase .kursor_text3{
         font-size: 12px;
     }
 
     #showcase .cd-headline {
-        font-size: 17px;
+        font-size: 19px;
 
+    }
+    @media (max-width: 340px) {
+
+        #showcase {
+            min-height: 650px;
+        }
+
+        #showcase .alt-font {
+            font-size: 10px;
+        }
+
+        #showcase .cd-headline {
+            font-size: 16px;
+
+        }
     }
 
     .arrow_down {
