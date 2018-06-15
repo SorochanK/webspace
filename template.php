@@ -197,8 +197,8 @@
         <div class="container">
             <div class="row">
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.2s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.2s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-paint-brush"></i></div>
                         <div class="text-center mt-3">Уникальный дизайн</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -210,8 +210,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.3s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.3s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-rocket"></i></div>
                         <div class="text-center mt-3">Оптимизация</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -223,8 +223,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.4s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.4s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-volume-up"></i></div>
                         <div class="text-center mt-3">Реклама</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -236,8 +236,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.5s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.5s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-heart"></i></div>
                         <div class="text-center mt-3">Перспектива</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -258,8 +258,8 @@
             </div>
             <div class="row">
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.2s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.2s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-home"></i></div>
                         <div class="text-center mt-3">Сайт визитка</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -270,8 +270,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.3s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.3s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-fighter-jet"></i></div>
                         <div class="text-center mt-3">Landing page</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -282,8 +282,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.4s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.4s">
+                    <div class="card ">
                         <div class="text-center"><i class="fas fa-space-shuttle"></i></div>
                         <div class="text-center mt-3">Интернет магазан</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -294,8 +294,8 @@
                 <!-- end services item -->
 
                 <!-- start services item -->
-                <div class="col-lg-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.5s">
-                    <div class="card pt-3">
+                <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.5s">
+                    <div class="card ">
                         <div class="text-center"><i class="far fa-chart-bar"></i></div>
                         <div class="text-center mt-3">Рекламные услуги</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
@@ -515,8 +515,6 @@
 
         <!--container-->
         <div class="  demo-1">
-
-
             <div id="slider" class="sl-slider-wrapper">
 
                 <div class="sl-slider">
@@ -803,7 +801,7 @@
     <section id="questions" class="text-white" data-wow-duration="1s">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 general-info" style="padding-left: 0px;">
+                <div class="col-md-6 general-info" style="padding: 0px !important;">
                     <div class="w-100 h-100 bg-dark py-3">
                         <div class="head-text mb-5">
                             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">

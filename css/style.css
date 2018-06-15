@@ -226,6 +226,10 @@ hr {
 
 @media (max-width: 512px) {
 
+    .contpre{
+        margin-left: -7%;
+    }
+
     #showcase .cd-headline {
         font-size: 25px;
         font-weight: 500;
@@ -369,6 +373,9 @@ hr {
 }
 
 @media (max-width: 768px) {
+    .contpre{
+        margin-left: -9%;
+    }
     body {
         padding: 0;
     }
@@ -601,7 +608,7 @@ footer .icons {
     position: absolute;
     left: 45%;
     top: 48%;
-    /*margin-left: -50px;*/
+    /*margin-left: -100px;*/
     margin-top: -75px;
     color: #fff;
     font-size: 40px;
