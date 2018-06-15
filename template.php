@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/helper.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/slider-style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slider-custom.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slider-custom.min.css"/>
     <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 
 
@@ -433,25 +433,6 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class=" text-center" id="clock">
-                        <!--<div class="timer pr-3">
-                            <h3 class="display-4"><span id="day" class="clock-val"></span> <span
-                                        class="d-none d-sm-inline">:</span></h3>
-                            <p class="lead">дней</p>
-                        </div>
-                        <div class="timer pr-3">
-                            <h3 class="display-4"><span id="hours" class="clock-val"></span> <span
-                                        class="d-none d-sm-inline">:</span></h3>
-                            <p class="lead">часов</p>
-                        </div>
-                        <div class="timer pr-3">
-                            <h3 class="display-4"><span id="minutes" class="clock-val"></span><span
-                                        class="d-none d-sm-inline">:</span></h3>
-                            <p class="lead">минут</p>
-                        </div>
-                        <div class="timer pr-3">
-                            <h3 class="display-4"><span id="seconds" class="clock-val"></span></h3>
-                            <p class="lead">секунд</p>
-                        </div>-->
                     </div>
                     <div id="units" class="text-center">
                         <span class="lead">Дней</span>
@@ -460,10 +441,13 @@
                         <span class="lead">Секунд</span>
                     </div>
                     <p class="lead text-md-right">
-                        Оформи заказ в течении 2 суток с момента первого визита на сайт и получи скидку -10% на итоговую сумму заказа.
+                        Оформи заказ в течении 2 суток с момента первого визита на сайт и получи скидку 10% на итоговую
+                        сумму заказа.
                     </p>
                     <div class="text-center">
-                        <a class="test" href="#price-section" ><button class="btn mb-4">Подробнее о стоимости</button></a>
+                        <a class="test" href="#price-section">
+                            <button class="btn mb-4">Подробнее о стоимости</button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -745,7 +729,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h5 class="modal-title text-center" id="buyfirstLabel" style="width: 100%;">Оформить заказ</h5>
+                    <h5 class="modal-title text-center" id="buyfirstLabel" style="position: absolute;left: 32%;">Оформить заказ</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -784,11 +768,11 @@
                                     <option value="drugoe">Другое</option>
                                 </select>
                             </div>
-
-                            <button type="submit" class="btn btn-primary" style="position: relative; left: 40%">
-                                Отправить
-                            </button>
-
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">
+                                    Отправить
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -821,9 +805,9 @@
                         <div class="loc-info mt-3 text-center">
                             <i class="fas fa-envelope-open"></i>
                             <h6>Почта</h6>
-                            <p class="text-mutet">asd@mail.com</p>
+                            <p class="text-mutet">mail@webspace.net.ua</p>
                         </div>
-                        <div class="loc-info mt-3 text-center" style="border: none">
+                        <div class="loc-info mt-3 text-center">
                             <i class="fas fa-map-marker"></i>
                             <h6>Мы в соц. сетях</h6>
                             <p class="text-mutet">
@@ -880,7 +864,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-12 text-center text-white">
-                    &copy; 2016-2018 SpaceWeb
+                    &copy; 2016-2018 WebSpace
                 </div>
                 <!--<div class="col icons text-right">
                     <i class="fab fa-facebook-square"></i>
@@ -922,7 +906,7 @@
 <script src="js/animate-header.js"></script>
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-<script type="text/javascript" src="js/slitslider.js"></script>
+<script type="text/javascript" src="js/slitslider.min.js"></script>
 <script type="text/javascript">
     $(function () {
 
