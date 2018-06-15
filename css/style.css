@@ -244,14 +244,27 @@ hr {
     }
 
     #showcase .alt-font {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #showcase .cd-headline {
-        font-size: 19px;
+        font-size: 17px;
 
     }
+
+    .arrow_down {
+        position: relative;
+        top: 90px;
+    }
+    .arrowUp {
+        color: #7b7b7b;
+        font-size: 35px;
+        position: relative;
+        left: 89%;
+        bottom: 12px;
+    }
 }
+
 
 #showcase b {
     color: #ff214f;
