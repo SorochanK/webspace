@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_ACCEPT} image/webp
+    RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+    RewriteRule ^(path/to/your/images.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+</IfModule>
+<IfModule mod_headers.c>
+    Header append Vary Accept env=REDIRECT_accept
+</IfModule>
+
+AddType image/webp .webp
+
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/json Header append Vary Accept-Encoding
+
+
+
+<IfModule mod_expires.c>
+
+Header append Cache-Control "public"
+
+FileETag MTime Size
+
+ExpiresActive On
+
+ExpiresDefault "access plus 0 minutes"
+
+ExpiresByType image/ico "access plus 1 years"
+
+ExpiresByType text/css "access plus 1 years"
+
+ExpiresByType text/javascript "access plus 1 years"
+
+ExpiresByType image/gif "access plus 1 years"
+
+ExpiresByType image/jpg "access plus 1 years"
+
+ExpiresByType image/jpeg "access plus 1 years"
+
+ExpiresByType image/bmp "access plus 1 years"
+
+ExpiresByType image/png "access plus 1 years"
+
+</IfModule>
+
