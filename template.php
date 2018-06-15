@@ -415,7 +415,7 @@
 
     <!----------------- Вторая часть------------------>
     <!--id="order-and-sale"-->
-    <section class="py-5
+    <section class="py-5 timer-color
 <?php
     if ($From <= $Now) echo 'd-none';
     ?>
@@ -459,11 +459,11 @@
                         <span class="lead">Минут</span>
                         <span class="lead">Секунд</span>
                     </div>
-                    <p class="lead text-md-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-                        corporis
-                        ducimus possimus quis.Adipisci corporis ducimus possimus quis.</p>
+                    <p class="lead text-md-right">
+                        Оформи заказ в течении 2 суток с момента первого визита на сайт и получи скидку -10% на итоговую сумму заказа.
+                    </p>
                     <div class="text-center">
-                        <button class="btn mb-4">Подробнее о стоимости</button>
+                        <a class="test" href="#price-section" ><button class="btn mb-4">Подробнее о стоимости</button></a>
                     </div>
                 </div>
                 <div class="col-md-5">
