@@ -386,7 +386,12 @@ hr {
     font-size: 20px;
     color: black;
 }
+#codelines:before{
+    font-size: 1.2em;
+    color: #ff214f;
+    content: '> ';
 
+}
 /* портфолио*/
 .portfoli-row {
     margin: 10px;

@@ -350,7 +350,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="item text-center">
                             <div class="text-center"><i class="fas fa-chart-line"></i></div>
-                            <h6>33235</h6>
+                            <h6 id="codelines">30000</h6>
                             <p>Строк кода</p>
                             <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-top"></div>
                         </div>
@@ -423,7 +423,7 @@
         <div class="head-text mb-5 wow slideInUp" data-wow-duration="1s">
             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Стоимость</div>
             <h3 class="font-weight-300 text-center mb-3">Рассчитать <span class="font-weight-600">стоимость</span> <span
-                        class="d-none d-sm-inline">будщего сайта</span></h3>
+                        class="d-none d-sm-inline">будущего сайта</span></h3>
             <div class="separator-line-horrizontal-medium-light2 bg-pink center-col m-auto"></div>
         </div>
         <div class="container">
@@ -441,7 +441,8 @@
                         <span class="lead">Секунд</span>
                     </div>
                     <p class="lead text-md-right">
-                        Оформи заказ в течении 2 суток с момента первого визита на сайт и получи скидку 10% на итоговую
+                        Оформите заказ в течении 2 суток с момента первого визита на сайт и получите скидку 10% на
+                        итоговую
                         сумму заказа.
                     </p>
                     <div class="text-center">
@@ -613,7 +614,7 @@
     <section id="price-section" class="py-5">
         <div class="head-text mb-5 wow slideInUp" data-wow-duration="1s">
             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Цена</div>
-            <h3 class="font-weight-300 text-center mb-3">Стоимость <span class="font-weight-600">Сайта</span></h3>
+            <h3 class="font-weight-300 text-center mb-3">Стоимость <span class="font-weight-600">сайта</span></h3>
             <div class="separator-line-horrizontal-medium-light2 bg-pink center-col m-auto"></div>
         </div>
         <div class="container">
@@ -632,19 +633,19 @@
 
                         <div class="card-body text-dark text-center">
                             <ul class="card-text text-left">
-                                <li>современный дизайн</li>
-                                <li>адаптивная версия
+                                <li>Современный дизайн</li>
+                                <li>Адаптивная версия
                                     <div class="text-muted">(для моб. устройств)</div>
                                 </li>
-                                <li>кроссбраузерность</li>
-                                <li>наполнение до 10 страниц</li>
-                                <li>базовая SEO оптимизация</li>
-                                <li>статистика посещений</li>
-                                <li>карта проезда</li>
-                                <li>форма обратной связи</li>
-                                <li>поддержка в течении 20 дней</li>
-                                <li>домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
-                                <li>срок выполнения - до 7 дней</li>
+                                <li>Кроссбраузерность</li>
+                                <li>Наполнение до 10 страниц</li>
+                                <li>Базовая SEO оптимизация</li>
+                                <li>Статистика посещений</li>
+                                <li>Карта проезда</li>
+                                <li>Форма обратной связи</li>
+                                <li>Поддержка в течении 20 дней</li>
+                                <li>Домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
+                                <li>Срок выполнения - до 7 дней</li>
                             </ul>
                             <button class="btn mt-2 " data-toggle="modal" data-target="#buyfirst">Заказать</button>
                         </div>
@@ -663,25 +664,25 @@
                         <div class="card-body text-dark text-center">
                             <ul class="card-text text-left">
                                 <li>Индивидуальны дизайн</li>
-                                <li>адаптивная версия
+                                <li>Адаптивная версия
                                     <div class="text-muted">(для моб. устройств)</div>
                                 </li>
-                                <li>кроссбраузерность
+                                <li>Кроссбраузерность
                                     <div class="text-muted">(для всех браузеров)</div>
                                 </li>
-                                <li>анализ целевой аудитории</li>
-                                <li>анализ конкурентов</li>
-                                <li>копирайтинг
+                                <li>Анализ целевой аудитории</li>
+                                <li>Анализ конкурентов</li>
+                                <li>Копирайтинг
                                     <div class="text-muted">(удешевляет рекламу)</div>
                                 </li>
-                                <li>настройка контекстной рекламы
+                                <li>Настройка контекстной рекламы
                                     <div class="text-muted">(Google Adwords)</div>
                                 </li>
-                                <li>подключение google analytics</li>
-                                <li>домен и хостинг на 180 дней &nbsp; <i class="fas fa-gift"></i></li>
+                                <li>Подключение google analytics</li>
+                                <li>Домен и хостинг на 180 дней &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>50$ на рекламу &nbsp; <i class="fas fa-gift"></i></li>
-                                <li>поддержка в течении 20 дней</li>
-                                <li>срок выполнения - до 10 дней</li>
+                                <li>Поддержка в течении 20 дней</li>
+                                <li>Срок выполнения - до 10 дней</li>
                             </ul>
                             <button class="btn mt-2" data-toggle="modal" data-target="#buyfirst">Заказать</button>
                         </div>
@@ -699,22 +700,22 @@
                         </div>
                         <div class="card-body text-dark text-center">
                             <ul class="card-text text-left">
-                                <li>индивидуальная CMS
+                                <li>Индивидуальная CMS
                                     <div class="text-muted"> (личный кабинет, админка, тд.)</div>
                                 </li>
-                                <li>индивидуальный дизайн</li>
-                                <li>адаптивность</li>
-                                <li>оптимизация контента для быстрой загрузки сайта</li>
-                                <li>защита от атак</li>
+                                <li>Индивидуальный дизайн</li>
+                                <li>Адаптивность</li>
+                                <li>Оптимизация контента для быстрой загрузки сайта</li>
+                                <li>Защита от атак</li>
                                 <li>SMS уведомления о заказе клиента</li>
-                                <li>базовые модули</li>
-                                <li>удобная навигация</li>
-                                <li>базовая SEO оптимизация</li>
-                                <li>неограниченное количество товаров</li>
-                                <li>подключение google analytics</li>
-                                <li>поддержка в течении 30 дней</li>
-                                <li>домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
-                                <li>срок выполнения - от 20 дней</li>
+                                <li>Базовые модули</li>
+                                <li>Удобная навигация</li>
+                                <li>Базовая SEO оптимизация</li>
+                                <li>Неограниченное количество товаров</li>
+                                <li>Подключение google analytics</li>
+                                <li>Поддержка в течении 30 дней</li>
+                                <li>Домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
+                                <li>Срок выполнения - от 20 дней</li>
                             </ul>
                             <button class="btn mt-2" data-toggle="modal" data-target="#buyfirst">Заказать</button>
                         </div>
@@ -729,7 +730,8 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h5 class="modal-title text-center" id="buyfirstLabel" style="position: absolute;left: 32%;">Оформить заказ</h5>
+                    <!--style="position: absolute;left: 32%;"-->
+                    <h5 style="width: 100%;" class="modal-title text-center" id="buyfirstLabel">Оформить заказ</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
