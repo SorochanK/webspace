@@ -188,7 +188,8 @@
     </section>
 
     <!-- о нас -->
-    <section id="services" class="bg-white padding-60px-tb" data-scroll-index="2">
+    <!--padding-60px-tb-->
+    <section id="services" class="bg-white pt-5" data-scroll-index="2">
         <div class="head-text mb-5 text-center wow slideInUp" data-wow-duration="1s">
             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">О нас</div>
             <h3 class="font-weight-300 text-center mb-3">Почему <span class="font-weight-600">мы</span> <span
@@ -251,7 +252,7 @@
 
 
             </div>
-            <div class="head-text mt-3 mb-5 text-center wow slideInUp" data-wow-duration="1s">
+            <div class="head-text  my-5 text-center wow slideInUp" data-wow-duration="1s">
                 <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Результат</div>
                 <h3 class="font-weight-300 text-center mb-3">О результате <span class="font-weight-600">простыми</span>
                     словами</h3>
@@ -363,7 +364,7 @@
     </section>
 
     <!-- Портфолио -->
-    <section id='portfolio' class="py-4" data-scroll-index="3">
+    <section id='portfolio' class="py-5" data-scroll-index="3">
         <div class="container ">
             <div class="head-text mb-5 text-center wow slideInUp" data-wow-duration="1s">
                 <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Портфолио</div>
@@ -789,7 +790,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 general-info" style="padding: 0px !important;">
-                    <div class="w-100 h-100 bg-dark py-3">
+                    <div class="w-100 h-100 bg-dark py-5">
                         <div class="head-text mb-5">
                             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">
                                 Расположение
@@ -822,7 +823,7 @@
                     <!-- <div class="toggle-icon"><i class="fas fa-map-marker"></i></div>-->
                 </div>
 
-                <div class="col-md-6 py-3 text-dark">
+                <div class="col-md-6 py-5 text-dark">
                     <div class="head-text mb-5">
                         <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Вопросы</div>
                         <h3 class="font-weight-300 text-center mb-3">Остались <span
