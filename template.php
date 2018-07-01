@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/slider-style.css"/>
     <link rel="stylesheet" type="text/css" href="css/slider-custom.min.css"/>
     <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/animate-head.css">
     <script src="js/modernizr.js"></script>
