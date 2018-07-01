@@ -28,8 +28,9 @@
 
     <link rel="stylesheet" href="css/animate-head.css">
     <script src="js/modernizr.js"></script>
-
-    <title>WebSpace</title>
+    <meta name="description" content="Заказать разработку сайта любой сложности по лучшей цене в Украине прямо сейчас!
+     Быстрые сроки.Гарантия результата.">
+    <title>WebSpace - создание интернет-магазина, Landing Page, сайта-визитки, услуги продвижения, контекстной рекламы в Украине</title>
 </head>
 <body>
 
