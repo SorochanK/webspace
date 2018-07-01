@@ -709,7 +709,6 @@
                                 <li>Адаптивность</li>
                                 <li>Оптимизация контента для быстрой загрузки сайта</li>
                                 <li>Защита от атак</li>
-                                <li>SMS уведомления о заказе клиента</li>
                                 <li>Базовые модули</li>
                                 <li>Удобная навигация</li>
                                 <li>Базовая SEO оптимизация</li>
@@ -793,7 +792,7 @@
                     <div class="w-100 h-100 bg-dark py-5">
                         <div class="head-text mb-5">
                             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">
-                                Расположение
+                                Контакты
                             </div>
                             <h3 class="font-weight-300 text-center mb-3">Наши <span
                                         class="font-weight-600">контакты</span>
@@ -803,8 +802,8 @@
                         <div class="loc-info mt-5 text-center ">
                             <i class="fas fa-mobile-alt"></i>
                             <h6>Телефон</h6>
-                            <p class="text-mutet my-0">+380-324-123-12-33</p>
-                            <p class="text-mutet">+380-324-123-12-33</p>
+                            <p class="text-mutet my-0">+380 68 253 26 55</p>
+                            <p class="text-mutet">+380 97 980 43 92</p>
                         </div>
                         <div class="loc-info mt-3 text-center">
                             <i class="fas fa-envelope-open"></i>
