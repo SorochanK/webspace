@@ -681,6 +681,7 @@
                                     <div class="text-muted">(Google Adwords)</div>
                                 </li>
                                 <li>Подключение google analytics</li>
+                                <li>Базовая SEO оптимизация</li>
                                 <li>Домен и хостинг на 180 дней &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>50$ на рекламу &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>Поддержка в течении 20 дней</li>
@@ -713,7 +714,7 @@
                                 <li>Удобная навигация</li>
                                 <li>Базовая SEO оптимизация</li>
                                 <li>Неограниченное количество товаров</li>
-                                <li>Подключение google analytics</li>
+                                <li>Счетчик посещаемости</li>
                                 <li>Поддержка в течении 30 дней</li>
                                 <li>Домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>Срок выполнения - от 20 дней</li>
