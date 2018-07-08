@@ -30,7 +30,8 @@
     <script src="js/modernizr.js"></script>
     <meta name="description" content="Заказать разработку сайта любой сложности по лучшей цене в Украине прямо сейчас!
      Быстрые сроки.Гарантия результата.">
-    <title>WebSpace - создание интернет-магазина, Landing Page, сайта-визитки, услуги продвижения, контекстной рекламы в Украине</title>
+    <title>WebSpace - создание интернет-магазина, Landing Page, сайта-визитки, услуги продвижения, контекстной рекламы в
+        Украине</title>
 </head>
 <body>
 
@@ -262,7 +263,9 @@
                 <!-- start services item -->
                 <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.2s">
                     <div class="card ">
-                        <div class="text-center"><i class="fas fa-home"></i></div>
+                        <div class="text-center"><!--<i class="fas fa-home"></i>-->
+                            <i class="fas fa-id-card"></i>
+                        </div>
                         <div class="text-center mt-3">Сайт визитка</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
                         <p class="card-body text-left ForMetric">Вся информация о вашей компании красиво оформлена в
@@ -274,7 +277,10 @@
                 <!-- start services item -->
                 <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.3s">
                     <div class="card ">
-                        <div class="text-center"><i class="fas fa-fighter-jet"></i></div>
+                        <div class="text-center"><!--<i class="fas fa-fighter-jet"></i>-->
+                            <i class="fas fa-paper-plane"></i>
+
+                        </div>
                         <div class="text-center mt-3">Landing page</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
                         <p class="card-body text-left ForMetric">Вы получаете страницу, которая будет призывать
@@ -286,7 +292,8 @@
                 <!-- start services item -->
                 <div class="col-lg-3 pt-3 col-md-6 about mb-sm-3 wow slideInRight" data-wow-duration="1.4s">
                     <div class="card ">
-                        <div class="text-center"><i class="fas fa-space-shuttle"></i></div>
+                        <div class="text-center"><!--<i class="fas fa-space-shuttle"></i>-->
+                            <i class="fas fa-shopping-cart"></i></div>
                         <div class="text-center mt-3">Интернет магазан</div>
                         <div class="separator-line-horrizontal-medium-light3 bg-pink center-col margin-15px-bottom margin-15px-top"></div>
                         <p class="card-body text-left ForMetric">Все ваши товары/услуги расположены на одном сайте и
@@ -658,6 +665,7 @@
                     <div class="card mb-3 item active">
                         <div class="c-header text-center mb-2">
                             <i class="fas fa-rocket"></i>
+                            <!--<i class="fas fa-plane-arrival"></i>-->
                             <h4 class="card-title ">Landing page</h4>
                         </div>
                         <div class="price text-center">
@@ -709,6 +717,8 @@
                                 <li>Индивидуальный дизайн</li>
                                 <li>Адаптивность</li>
                                 <li>Оптимизация контента для быстрой загрузки сайта</li>
+                                <li>Возможность продвижения</li>
+                                <li>Интеграция с соц. сетями</li>
                                 <li>Защита от атак</li>
                                 <li>Базовые модули</li>
                                 <li>Удобная навигация</li>
