@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121909118-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121909118-1');
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -190,7 +198,7 @@
 
     <!-- о нас -->
     <!--padding-60px-tb-->
-    <section id="services" class="bg-white pt-5" data-scroll-index="2">
+    <section id="services" class="bg-white py-5" data-scroll-index="2">
         <div class="head-text mb-5 text-center wow slideInUp" data-wow-duration="1s">
             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">О нас</div>
             <h3 class="font-weight-300 text-center mb-3">Почему <span class="font-weight-600">мы</span> <span
@@ -726,6 +734,7 @@
                                 <li>Неограниченное количество товаров</li>
                                 <li>Счетчик посещаемости</li>
                                 <li>Поддержка в течении 30 дней</li>
+                                <li>SSL cертификат   <i class="fas fa-gift"></i></li>
                                 <li>Домен и хостинг на 365 дней &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>Срок выполнения - от 20 дней</li>
                             </ul>
