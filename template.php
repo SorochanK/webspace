@@ -146,7 +146,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center caption">
-                    <h3 class="alt-font no-margin ">Web-студия №1 в Украине</h3>
+<!--                    <h3 class="alt-font no-margin ">Web-студия №1 в Украине</h3>-->
                     <h3 class="cd-headline clip ">
                         <span>Решения для вашего</span>
                         <span class="cd-words-wrapper">
@@ -626,8 +626,6 @@
 
 
     </section>
-
-
     <section id="price-section" class="py-5">
         <div class="head-text mb-5 wow slideInUp" data-wow-duration="1s">
             <div class="alt-font text-center text-uppercase letter-spacing-1 text-pink-color">Цена</div>
@@ -677,7 +675,7 @@
                             <h4 class="card-title ">Landing page</h4>
                         </div>
                         <div class="price text-center">
-                            <h4 class="py-4"><span class="text-pink-color from">от&nbsp;</span>300$</h4>
+                            <h4 class="py-4"><span class="text-pink-color from">от&nbsp;</span>150$</h4>
                         </div>
                         <div class="card-body text-dark text-center">
                             <ul class="card-text text-left">
@@ -699,7 +697,6 @@
                                 <li>Подключение google analytics</li>
                                 <li>Базовая SEO оптимизация</li>
                                 <li>Домен и хостинг на 180 дней &nbsp; <i class="fas fa-gift"></i></li>
-                                <li>50$ на рекламу &nbsp; <i class="fas fa-gift"></i></li>
                                 <li>Поддержка в течении 20 дней</li>
                                 <li>Срок выполнения - до 10 дней</li>
                             </ul>
@@ -715,7 +712,7 @@
                             <h4 class="card-title">Интернет - магазин</h4>
                         </div>
                         <div class="price text-center">
-                            <h4 class="py-4"><span class="text-pink-color from">от&nbsp;</span>500$</h4>
+                            <h4 class="py-4"><span class="text-pink-color from">от&nbsp;</span>350$</h4>
                         </div>
                         <div class="card-body text-dark text-center">
                             <ul class="card-text text-left">

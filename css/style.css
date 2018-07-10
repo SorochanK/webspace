@@ -123,6 +123,12 @@ hr {
     font-size: 35px;
 }
 
+.arrowDown:hover{
+    color: white;
+    font-size: 40px;
+    transition-duration: .2s;
+}
+
 .arrow {
     display: none;
 }
